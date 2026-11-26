@@ -98,6 +98,7 @@ header{position:fixed;top:0;left:0;right:0;z-index:40;background:rgba(15,51,36,.
 .privada-cuerpo.invertido .plano{order:2}
 .plano{margin:0}
 .plano img{width:100%;max-height:560px;object-fit:contain;background:var(--marfil);border-radius:6px;border:1px solid #ECE5D7}
+.plano img.sin-fondo{background:transparent;border:0;border-radius:0}
 .plano figcaption{font-size:13px;color:var(--gris);margin-top:10px}
 .tabla-caja{overflow-x:auto}
 table{width:100%;border-collapse:collapse;font-size:15px}
@@ -279,8 +280,8 @@ footer .cont{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;
   </div>
   <div class="privada-cuerpo">
     <figure class="plano">
-      <img src="assets/plano-refugio.jpg" alt="Plano de lotes disponibles en Mina Refugio">
-      <figcaption>En rojo, los lotes disponibles.</figcaption>
+      <img src="assets/plano-refugio.png" alt="Plano de lotes disponibles en Mina Refugio" class="sin-fondo">
+      <figcaption>En verde, los lotes disponibles.</figcaption>
     </figure>
     <div class="lista">
       <div class="tabla-caja">
