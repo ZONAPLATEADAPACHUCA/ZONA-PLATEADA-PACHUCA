@@ -66,12 +66,13 @@ header{position:fixed;top:0;left:0;right:0;z-index:40;background:rgba(15,51,36,.
 .foto-marco::after{content:"";position:absolute;inset:24px -24px -24px 24px;border:1px solid var(--oro);border-radius:6px;z-index:-1}
 .plusvalia{background:var(--verde);color:#fff}
 .plusvalia h2{color:#fff}.plusvalia .sec-cab p{color:#C9D3CC}
-.pl-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border-top:1px solid rgba(255,255,255,.16);border-left:1px solid rgba(255,255,255,.16)}
+.pl-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid rgba(255,255,255,.16);border-left:1px solid rgba(255,255,255,.16)}
 .pl{padding:34px 26px 38px;border-right:1px solid rgba(255,255,255,.16);border-bottom:1px solid rgba(255,255,255,.16)}
 .pi{display:inline-flex;width:64px;height:64px;border-radius:50%;align-items:center;justify-content:center;background:rgba(227,203,143,.12);color:var(--oro2);margin-bottom:20px}
 .pl h3{font-size:26px;color:#fff;margin-bottom:8px}
+.pl .min{display:block;font-family:var(--serif);font-size:40px;font-weight:600;color:var(--oro2);line-height:1;margin-bottom:10px}
 .pl p{margin:0;font-size:14px;color:#C9D3CC}
-@media (max-width:1020px){.pl-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.pl:first-child{grid-column:1/-1}}
+@media (max-width:1020px){.pl-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:640px){.pl-grid{grid-template-columns:1fr}}
 .priv-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px}
 .pcard{background:#fff;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;text-decoration:none;box-shadow:0 30px 60px -44px rgba(15,51,36,.5);transition:transform .25s}
