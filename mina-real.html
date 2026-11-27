@@ -64,6 +64,15 @@ header{position:fixed;top:0;left:0;right:0;z-index:40;background:rgba(15,51,36,.
 .foto-marco{position:relative}
 .foto-marco img{width:100%;height:560px;object-fit:cover;border-radius:6px}
 .foto-marco::after{content:"";position:absolute;inset:24px -24px -24px 24px;border:1px solid var(--oro);border-radius:6px;z-index:-1}
+.plusvalia{background:var(--verde);color:#fff}
+.plusvalia h2{color:#fff}.plusvalia .sec-cab p{color:#C9D3CC}
+.pl-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border-top:1px solid rgba(255,255,255,.16);border-left:1px solid rgba(255,255,255,.16)}
+.pl{padding:34px 26px 38px;border-right:1px solid rgba(255,255,255,.16);border-bottom:1px solid rgba(255,255,255,.16)}
+.pi{display:inline-flex;width:64px;height:64px;border-radius:50%;align-items:center;justify-content:center;background:rgba(227,203,143,.12);color:var(--oro2);margin-bottom:20px}
+.pl h3{font-size:26px;color:#fff;margin-bottom:8px}
+.pl p{margin:0;font-size:14px;color:#C9D3CC}
+@media (max-width:1020px){.pl-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.pl:first-child{grid-column:1/-1}}
+@media (max-width:640px){.pl-grid{grid-template-columns:1fr}}
 .priv-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px}
 .pcard{background:#fff;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;text-decoration:none;box-shadow:0 30px 60px -44px rgba(15,51,36,.5);transition:transform .25s}
 .pcard:hover{transform:translateY(-6px)}
@@ -205,6 +214,7 @@ tr.destacado td{background:#FBF5E6}
       <a class="s" href="index.html#desarrollador">Nosotros</a>
       <a href="index.html#privadas">Privadas</a>
       <a href="index.html#promociones">Promociones</a>
+      <a class="s" href="index.html#plusvalia">Plusvalía</a>
       <a class="s" href="index.html#galeria">Galería</a>
       <a class="s" href="index.html#ubicacion">Ubicación</a>
       <a href="index.html#contacto">Contacto</a>
